@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kura | Home</title>
+
+    <!-- fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- swiper js  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <!-- <div class="mouse">
+        <span></span>
+    </div> -->
+
+    <!-- navigation bar -->
+    <nav class="navbar">
+        <div class="nav__brand">
+            Kura
+        </div>
+        <div class="nav__list">
+            <ul class="list">
+                <li class="list__item">Home</li>
+                <li class="list__item">Portfolio</li>
+                <li class="list__item">Skills</li>
+                <li class="list__item">Timeline</li>
+                <li class="list__item">Price</li>
+                <li class="list__item">News</li>
+                <li class="list__item">Contact</li>
+            </ul>
+            <i class="fas fa-bars" id="bar"></i>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+
+    <section class="container hero">
+        <div class="part__one">
+            <div class="inner">
+                <img loading="lazy" src="./media/hero.webp" alt="Hero Image">
+            </div>
+        </div>
+        <div class="part__two">
+            <small>Bernard Smith</small>
+            <h1>creative designer based in japan</h1>
+            <ul>
+                <li>Web development <i class="fas fa-arrow-right"></i></li>
+                <li>Digital Marketing <i class="fas fa-arrow-right"></i></li>
+                <li>Graphic Design <i class="fas fa-arrow-right"></i></li>
+            </ul>
+            <div class="part__experience">
+                <div class="experience">
+                    <span>10+</span>
+                    <span>Years of Experience</span>
+                </div>
+                <div class="customer">
+                    <span>3K+</span>
+                    <span>Happy Customers</span>
+                </div>
+            </div>
+            <div class="down__arrow">
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- portfolio -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="heading">
+                <small>Portfolio</small>
+                <h2>selected works</h2>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/6.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/5.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/6.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/5.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/6.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/5.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bottom">
+
+                    <!-- If we need navigation buttons -->
+                    <div class="arrows">
+                        <i class="fas fa-arrow-left custom-button-prev"></i>
+                        <i class="fas fa-arrow-right custom-button-next"></i>
+                    </div>
+                    <!-- If we need scrollbar -->
+                    <!-- Custom Scrollbar -->
+                    <div class="scrollbar">
+                        <span class="current"></span>
+                        <div class="swiper-scrollbar"></div>
+                        <span class="total"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills">
+        <div class="container">
+            <div class="part__one">
+                <div class="heading">
+                    <small>Skills</small>
+                    <h2>programming skills</h2>
+                </div>
+                <p class="content">
+                    For more than 20 years our experts have been accomplishing enough with modern Web Development, new
+                    generation web and app programming language.
+                </p>
+                <div class="skills-data">
+                    <div class="data">
+                        <span>HTML & CSS</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-meter">
+                        <div class="meter"></div>
+                    </div>
+                </div>
+                <div class="skills-data">
+                    <div class="data">
+                        <span>JavaScript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-meter">
+                        <div class="meter"></div>
+                    </div>
+                </div>
+                <div class="skills-data">
+                    <div class="data">
+                        <span>WordPress</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-meter">
+                        <div class="meter"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="part__two">
+                <div class="video-box"></div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- timeline -->
+    <section class="timeline">
+        <div class="container">
+            <div class="heading">
+                <small>Timeline</small>
+                <h2>working period</h2>
+            </div>
+            <div class="time-periods">
+                <p>April, 2019 - Today</p>
+                <p>Head Designer & Co-founder</p>
+                <p>Alan Klein Design, London</p>
+            </div>
+            <div class="time-periods">
+                <p>September, 2018 - April, 2019</p>
+                <p>Creative Director & Senior Designer</p>
+                <p>Raxuna Poc, New York</p>
+            </div>
+            <div class="time-periods">
+                <p>October, 2015 - September, 2018</p>
+                <p>Head Designer</p>
+                <p>Arimana Co. Ltd, Amsterdam</p>
+            </div>
+            <div class="time-periods">
+                <p>July, 2012 - October, 2015</p>
+                <p>Senior UX & UI Designer</p>
+                <p>Baxdoro Design, London</p>
+            </div>
+            <div class="time-periods">
+                <p>March, 2010 - July, 2012</p>
+                <p>Junior UX Designer</p>
+                <p>Simono Design Group, London</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Pricing -->
+    <section class="pricing">
+        <div class="container">
+            <div class="part__one">
+                <div class="heading">
+                    <small>Pricing</small>
+                    <h2>service prices</h2>
+                </div>
+                <p class="content">
+                    For more than 20 years our experts have been accomplishing enough with modern Web Development, new
+                    generation web and app programming language.
+                </p>
+            </div>
+            <div class="part__two">
+                <div class="price-card">
+                    <div class="technology">
+                        <i class="fa-brands fa-wordpress"></i>
+                        <p>WordPress Development</p>
+                    </div>
+                    <div class="price">$500</div>
+                </div>
+                <div class="price-card">
+                    <div class="technology">
+                        <i class="fa-solid fa-file-lines"></i>
+                        <p>HTML Development</p>
+                    </div>
+                    <div class="price">$400</div>
+                </div>
+                <div class="price-card">
+                    <div class="technology">
+                        <i class="fa-regular fa-newspaper"></i>
+                        <p>Content Writing</p>
+                    </div>
+                    <div class="price">$300</div>
+                </div>
+                <div class="price-card">
+                    <div class="technology">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                        <p>Brand Identity</p>
+                    </div>
+                    <div class="price">$200</div>
+                </div>
+                <div class="price-card">
+                    <div class="technology">
+                        <i class="fa-regular fa-image"></i>
+                        <p>PSD Design</p>
+                    </div>
+                    <div class="price">$100</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- latest news -->
+
+
+    <section class="news">
+        <div class="container">
+            <div class="heading">
+                <small>News</small>
+                <h2>Latest news</h2>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/6.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <p>02 June, 2022</p>
+                                <h4>Diversification of digital marketing stategies</h4>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/5.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/6.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/5.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/6.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img loading="lazy" src="./media/5.webp" alt="image">
+                        <div>
+                            <div class="content">
+                                <h4>Viva Mercury</h4>
+                                <p>Image</p>
+                            </div>
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bottom">
+
+                    <!-- If we need navigation buttons -->
+                    <div class="arrows">
+                        <i class="fas fa-arrow-left custom-button-prev"></i>
+                        <i class="fas fa-arrow-right custom-button-next"></i>
+                    </div>
+                    <!-- If we need scrollbar -->
+                    <!-- Custom Scrollbar -->
+                    <div class="scrollbar">
+                        <span class="ncurrent"></span>
+                        <div class="swiper-scrollbar"></div>
+                        <span class="ntotal"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="contact">
+        <div class="container">
+            
+            <div class="part__one">
+
+                <div class="heading">
+                    <small>Contact</small>
+                    <h2>Get in touch</h2>
+                </div>
+                <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
+                <ul>
+                    <li><i class="fas fa-location-dot"></i> <p>44 Place, Uttarakhand, India</p></li>
+                    <li><i class="fas fa-phone"></i> <p>+91 00000 00000</p></li>
+                    <li><i class="fas fa-envelope"></i> <p>dodo@gmail.com</p></li>
+                    <li><i class="fas fa-globe"></i> <p>www.clone.com</p></li>
+                </ul>
+            </div>
+            <div class="part__two">
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Message">
+                    <button>Submit <i class="fas fa-arrow-right"></i></button>
+                </form>
+            </div>
+            
+        </div>
+        <section>
+            <div class="copyright">
+                <p>Copyright &copy; 2024 All rights reserved.</p>
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-youtube"></i></li>
+            </ul>
+            </div>
+        </section>
+    </footer>
+
+
+    <!-- swiper js -->
+
+    <script async src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>
