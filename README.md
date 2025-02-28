@@ -25,13 +25,13 @@ Check out the live project here: [Clone Website](https://clone0231.netlify.app/)
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/AryanKumar231/Kura-Template-Clone.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd your-repo-name
+    cd Kura-Template-Clone
     ```
 
 3. Open the `index.html` file in your browser.
@@ -42,30 +42,6 @@ Check out the live project here: [Clone Website](https://clone0231.netlify.app/)
 2. Open the `index.html` file directly in your browser.
 3. Explore and interact with the website.
 
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-
-    ```bash
-    git checkout -b feature/your-feature
-    ```
-
-3. Make your changes and commit them:
-
-    ```bash
-    git commit -m 'Add new feature'
-    ```
-
-4. Push to your forked repository:
-
-    ```bash
-    git push origin feature/your-feature
-    ```
-
-5. Open a pull request.
 
 ## 📄 License
 
